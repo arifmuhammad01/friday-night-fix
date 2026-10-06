@@ -1,0 +1,8 @@
+{
+  "name": "ostad-runner-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/app.js dist/app.js",
+    "test": "node tests/app.test.js"
+  }
+}
